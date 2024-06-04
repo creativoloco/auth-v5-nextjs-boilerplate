@@ -8,9 +8,9 @@
 - shadcn/ui ( collection of re-usable components )
 
 ## Install nextjs
-´´´bash
+```bash
 pnpm create next-app@latest <project name>
-´´´
+```
 After executing the command you should select:
 - Typescript: Yes
 - EsLint: Yes
@@ -23,9 +23,9 @@ Get into the created folder and open the project with your favorite editor.
 
 ## Use shadcn/ui
 Add shadcn/ui to your project
-´´´bash
+```bash
 pnpm dlx shadcn-ui@latest init
-´´´
+```
 Answer the questions:
 - style to use: New York
 - base color: Slate
@@ -35,9 +35,9 @@ Something interesting is that now you have a new folder and new file in `./lib/u
 
 ### Adding a new component
 Add components using the following example
-´´´bash
+```bash
 pnpm dlx shadcn-ui@latest add <button>
-´´´
+```
 You should replace `<button>` with any other components listed in the official shadcn/ui website
 
 After excecuting the command you will get a new folder `./ui` inside components folder in the root of your project, and you will get inside the shandcn/ui component you installed before.
