@@ -101,15 +101,12 @@ export default function Home() {
     </h1>
   )
 }
-´´´
+```
 
 ***Suggestions***
 Every time you want to import a component or file, use the alias "@" to refer the root of the application:
 
-´´´typescript
+```typescript
 import { button } from "@/components/ui/button"
-´´´
-
-
-
+```
 
