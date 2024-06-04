@@ -61,7 +61,7 @@ touch ./app/dashboard/page.tsx
 
 Inside the `page.tsx` you should export a component using **default** function
 
-``TSX
+```typescriptreact
 const DashboardPage = () => {
   return <div>Dashboard page</div>
 }
@@ -83,7 +83,7 @@ In nextJs you should care how are you naming your files and folders. Here I will
 ## Fonts
 To use family fonts in next-js you should follow the structure bellow
 
-``TSX
+```typescriptreact
 import {Poppins} from "next/font/google"
 
 // configure the font
@@ -106,7 +106,7 @@ export default function Home() {
 ***Suggestions***
 Every time you want to import a component or file, use the alias "@" to refer the root of the application:
 
-``TSX
+```typescriptreact
 import { button } from "@/components/ui/button"
 ```
 
